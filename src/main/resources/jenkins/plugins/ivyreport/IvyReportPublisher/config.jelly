@@ -1,0 +1,12 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout"
+         xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+  -->         
+    <f:entry title="Ivy Configurations" description="Ivy Configurations" field="ivyReportConfigurations">
+        <f:textbox />
+    </f:entry>
+    <f:entry title="Resolve id" description="The resolve id (generally [org]-[module])" field="resolveId">
+        <f:textbox />
+    </f:entry>
+</j:jelly>
